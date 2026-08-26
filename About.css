@@ -1,0 +1,227 @@
+.h11 {
+    color: rgb(79, 139, 235);
+    font: 600px;
+    text-shadow: 3px 3px;
+}
+
+.h12 {
+    color: rgb(236, 72, 122);
+    font: 600px;
+    text-shadow: 3px 3px;
+    margin-left: 25px;
+}
+
+.logo {
+    display: block;
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+}
+
+
+.div1 {
+    position: absolute;
+    top: 2%;
+
+}
+
+a :hover {
+    color: rgb(198, 61, 198);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.hero {
+    background: linear-gradient(to right, #e6eef6, #f4f7fb);
+    color: #3b4c63;
+}
+
+.team-card {
+    background: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    height: 100%;
+
+}
+
+.avatar {
+    font-size: 60px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.socials a {
+    width: 40px;
+    height: 40px;
+    background: #6fa3b8;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.socials a:hover {
+    background: #4f8ea5;
+}
+
+
+.values {
+    background: #e67eca;
+}
+
+.cta {
+    background: #8cbec1;
+}
+
+.footer {
+    background: #4b5563;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+
+h1 {
+    color: rgb(79, 139, 235);
+}
+
+.p1 {
+    color: rgb(79, 139, 235);
+}
+
+h2 {
+    color: rgb(236, 72, 122);
+}
+
+b {
+    color: rgb(236, 72, 122);
+}
+
+.card {
+    background-color: #fbaac4;
+}
+
+.card1 {
+    background-color: #b3e2f3;
+    border-radius: 8px;
+}
+
+.font {
+    color: gray;
+}
+
+body {
+    padding-top: 100px;
+}
+
+.hero {
+    background: #007bff;
+    color: white;
+}
+
+.values {
+    background-color: #f8f9fa;
+}
+
+.cta {
+    background-color: #28a745;
+}
+
+.team-card .avatar {
+    font-size: 4rem;
+}
+
+.team-card .socials a {
+    margin: 0 5px;
+    color: #333;
+}
+
+.footer {
+    background-color: #343a40;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Reset & base */
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Hero section */
+.hero {
+    background: linear-gradient(135deg, #343a40, #495057);
+    border-radius: 15px;
+}
+
+/* Mission card */
+.card {
+    border-radius: 15px;
+}
+
+
+/* Social Icons */
+.socials a {
+    font-size: 20px;
+    color: #444;
+    transition: 0.3s ease;
+}
+
+.socials a:hover {
+    color: #ff9800;
+}
+
+/* Values section */
+.values {
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+
+/* Navbar cart badge */
+#cartCount {
+    font-size: 12px;
+    padding: 4px 6px;
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px) {
+
+    .h11,
+    .h12 {
+        font-size: 22px;
+    }
+
+    .avatar {
+        font-size: 60px;
+    }
+}

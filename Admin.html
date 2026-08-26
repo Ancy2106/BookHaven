@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Admin Dashboard | Book Haven</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body class="bg-light">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-dark bg-dark px-3">
+        <span class="navbar-brand">📚 BOOK HAVEN ADMIN</span>
+        <button class="btn btn-outline-light btn-sm" onclick="logout()">Logout</button>
+    </nav>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container-fluid mt-4">
+
+        <div class="row">
+
+            <!-- LEFT PANEL -->
+            <div class="col-lg-4 col-md-5 mb-4">
+
+                <div class="card shadow-sm">
+                    <div class="card-header bg-dark text-white">
+                        Add New Book
+                    </div>
+
+                    <div class="card-body">
+
+                        <div class="mb-2">
+                            <input id="adminTitle" class="form-control" placeholder="Book Title">
+                        </div>
+
+                        <div class="mb-2">
+                            <input id="adminAuthor" class="form-control" placeholder="Author">
+                        </div>
+
+                        <div class="mb-2">
+                            <input id="adminPrice" type="number" class="form-control" placeholder="Price">
+                        </div>
+
+                        <div class="mb-2">
+                            <input id="adminCategory" class="form-control" placeholder="Category">
+                        </div>
+
+                        <div class="mb-2">
+                            <input id="adminImage" class="form-control" placeholder="Image Path">
+                        </div>
+
+                        <div class="mb-2">
+                            <textarea id="adminDescription" class="form-control"
+                                placeholder="Book Description"></textarea>
+                        </div>
+
+                        <div class="form-check mb-3">
+                            <input class="form-check-input" type="checkbox" id="adminFeatured">
+                            <label class="form-check-label">Featured Book</label>
+                        </div>
+
+                        <button class="btn btn-dark w-100" onclick="addBook()">Add Book</button>
+
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- RIGHT PANEL -->
+            <div class="col-lg-8 col-md-7">
+
+                <div class="card shadow-sm">
+
+                    <div class="card-header bg-dark text-white">
+                        Book Inventory
+                    </div>
+
+                    <div class="table-responsive">
+
+                        <table class="table table-striped align-middle mb-0">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Title</th>
+                                    <th>Author</th>
+                                    <th>Price</th>
+                                    <th>Category</th>
+                                    <th>Action</th>
+                                </tr>
+                            </thead>
+
+                            <tbody id="adminBooks"></tbody>
+                        </table>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="Main.js"></script>
+    <script>
+        protectAdmin();
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,89 @@
+.h11 {
+    color: rgb(79, 139, 235);
+    font: 600px;
+    text-shadow: 3px 3px;
+}
+
+.h12 {
+    color: rgb(236, 72, 122);
+    font: 600px;
+    text-shadow: 3px 3px;
+    margin-left: 25px;
+}
+
+.logo {
+    display: block;
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+}
+
+
+.div1 {
+    position: absolute;
+    top: 2%;
+
+}
+
+a :hover {
+    color: rgb(198, 61, 198);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+/* HERO */
+.hero {
+    background: linear-gradient(to bottom, #eaf2fb, #cfdceb);
+    min-height: 60vh;
+}
+
+/* WHY US */
+.why-us {
+    background-color: #879490f8;
+}
+
+/* CTA */
+.cta {
+    background-color: rgb(235, 64, 98);
+    text-decoration: transparent;
+}
+
+.category {
+    color: rgb(79, 139, 235);
+    font-size: xx-large;
+}
+
+.featured {
+    color: rgb(236, 72, 122);
+    font-size: xx-large;
+}
+
+.cat {
+    background: linear-gradient(to right, #e6eef6, #f4f7fb);
+    color: #3b4c63;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #3b4552;
+}
+
+.footer {
+    background: #4b5563;
+}
+
+.footer-link {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+.h11 {
+    color: rgb(79, 139, 235);
+    font: 600px;
+    text-shadow: 3px 3px;
+}
+
+.h12 {
+    color: rgb(236, 72, 122);
+    font: 600px;
+    text-shadow: 3px 3px;
+    margin-left: 25px;
+}
+
+.logo {
+    display: block;
+    margin-left: 0;
+    width: 70px;
+    height: 70px;
+}
+
+
+.div1 {
+    position: absolute;
+    top: 2%;
+
+}
+
+a :hover {
+    color: rgb(198, 61, 198);
+}
+
+header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.book-details img {
+    max-height: 600px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.book-details h2 {
+    font-weight: bold;
+}
+
+.book-details p {
+    font-size: 1rem;
+}
+
+.book-details .btn {
+    min-width: 120px;
+}
