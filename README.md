@@ -131,22 +131,16 @@ A contact form can include:
 - Message
 - Submit button
 
-### 📰 Blog / News
-
-A Blog or News section can be used to share:
-
-- Book recommendations
-- Reading guides
-- Author information
-- Literary discussions
-- BookHaven announcements
-- Platform updates
-
----
-
 ## 🧭 Website Navigation
 
 BookHaven follows a simple navigation structure to make moving between different sections easy.
 
 ```text
 Home | Books | About Us | Blog | Contact
+
+## 👩‍💻** Author**
+
+**Ancy Infant Jemi C**
+
+[GitHub](https://github.com/Ancy2106) | [LinkedIn](https://linkedin.com/in/ancy-infant-jemi-69226a309)
+
