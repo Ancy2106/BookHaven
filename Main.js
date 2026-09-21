@@ -15,7 +15,7 @@ function protectAdmin() {
 
     if (loggedIn !== "true" || role !== "admin") {
         alert("Access denied. Admin only!");
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
     }
 }
 
@@ -112,7 +112,7 @@ function loginUser() {
         localStorage.setItem("currentUserName", user.name);
         localStorage.setItem("role", "user");
 
-        window.location.href = "Home.html";
+        window.location.href = "index.html";
     } else {
         alert("Invalid email or password");
     }
